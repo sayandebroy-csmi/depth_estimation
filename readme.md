@@ -29,6 +29,8 @@ Clone this repository
 git clone https://github.com/sayandebroy-csmi/depth_estimation.git
 
 cd depth_estimation
+
+mkdir static
 ```
 
 Run the code
