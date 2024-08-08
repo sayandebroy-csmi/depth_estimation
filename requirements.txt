@@ -1,0 +1,6 @@
+opencv-python
+fastapi
+timm
+uvicorn
+python-multipart
+requests

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Define the title of the webpage -->
+    <title>Processed Video</title>
+</head>
+<body>
+    <!-- Main heading of the webpage -->
+    <h1>Processed Video</h1>
+    
+    <!-- Video player to display the processed video -->
+    <video width="600" controls>
+        <!-- Source of the video to be played -->
+        <source src="{{ output_video }}" type="video/x-msvideo">
+        <!-- Fallback text for browsers that do not support the video tag -->
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <!-- Link to go back to the upload page -->
+    <a href="/">The Video has been saved in the static folder. Upload another video</a>
+</body>
+</html>
